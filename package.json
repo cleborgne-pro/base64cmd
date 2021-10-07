@@ -1,5 +1,5 @@
 {
-  "name": "base64cmd",
+  "name": "@deadlox/base64cmd",
   "version": "1.0.0",
   "description": "Encode and decode base64 string",
   "main": "./lib/index.js",
@@ -13,7 +13,19 @@
   },
   "preferGlobal": true,
   "bin": {
-    "base64cmd-encode": "./bin/encode.js",
-    "base64cmd-decode": "./bin/decode.js"
-  }
+    "base64cmd-encode": "bin/encode.js",
+    "base64cmd-decode": "bin/decode.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleborgne-pro/base64cmd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cleborgne-pro/base64cmd/issues"
+  },
+  "homepage": "https://github.com/cleborgne-pro/base64cmd#readme"
 }

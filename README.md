@@ -15,15 +15,17 @@ npm i -g base64util
 ## Usage ##
 
 Encode string:
-```bash
-base64encode youmakemyday
+```console
+foo@bar:~$ base64encode youmakemyday
+
 String: youmakemyday
 Base64: eW91bWFrZW15ZGF5
 ```
 
 Decode base64 string:
-```bash
-base64decode eW91bWFrZW15ZGF5
+```console
+foo@bar:~$ base64decode eW91bWFrZW15ZGF5
+
 Base64: eW91bWFrZW15ZGF5
 String: youmakemyday
 ```

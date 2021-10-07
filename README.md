@@ -16,7 +16,7 @@ npm i -g base64util
 
 Encode string:
 ```console
-foo@bar:~$ base64encode youmakemyday
+foo@bar:~$ base64cmd-encode youmakemyday
 
 String: youmakemyday
 Base64: eW91bWFrZW15ZGF5
@@ -24,7 +24,7 @@ Base64: eW91bWFrZW15ZGF5
 
 Decode base64 string:
 ```console
-foo@bar:~$ base64decode eW91bWFrZW15ZGF5
+foo@bar:~$ base64cmd-decode eW91bWFrZW15ZGF5
 
 Base64: eW91bWFrZW15ZGF5
 String: youmakemyday

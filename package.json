@@ -13,7 +13,7 @@
   },
   "preferGlobal": true,
   "bin": {
-    "base64encode": "./bin/encode.js",
-    "base64decode": "./bin/decode.js"
+    "base64cmd-encode": "./bin/encode.js",
+    "base64cmd-decode": "./bin/decode.js"
   }
 }

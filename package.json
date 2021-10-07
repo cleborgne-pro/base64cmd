@@ -1,6 +1,6 @@
 {
   "name": "@deadlox/base64cmd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Encode and decode base64 string",
   "main": "./lib/index.js",
   "author": "cleborgne.pro@gmail.com",

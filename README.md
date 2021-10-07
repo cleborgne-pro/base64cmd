@@ -9,7 +9,7 @@ Thanks to [nodejs-base64](https://www.npmjs.com/package/nodejs-base64)
 Install from command line:
 
 ```
-npm i -g base64util
+npm i -g @deadlox/base64cmd
 ```
 
 ## Usage ##

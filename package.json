@@ -1,0 +1,19 @@
+{
+  "name": "base64cmd",
+  "version": "1.0.0",
+  "description": "Encode and decode base64 string",
+  "main": "./lib/index.js",
+  "author": "cleborgne.pro@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "nodejs-base64": "2.0.0"
+  },
+  "scripts": {
+    "test": "node ./bin/encode.js youmakemyday && node ./bin/decode.js eW91bWFrZW15ZGF5"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "base64encode": "./bin/encode.js",
+    "base64decode": "./bin/decode.js"
+  }
+}
